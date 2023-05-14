@@ -1,3 +1,5 @@
+
+
 // const ism = "salom"
 
 // localStorage.setItem("name" , ism)
@@ -32,6 +34,9 @@ $(document).ready(function(){
  
  
  })
+ 
+
+
  
 
   
