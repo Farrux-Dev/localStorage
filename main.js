@@ -27,12 +27,31 @@ $(document).ready(function(){
    localStorage.setItem( get, set)
 
 
+   $("button").click(function(){
+    $("p").append("<b>Appended text</b>");
+  });
+  
 
 
      
     }) 
+
  
- 
+    $(".btn").click(()=>{    
+        let l = $(".ism").val()
+        let s = $(".ismm").val()
+        $("th").append(l)
+        $("td").append(s) 
+         }) 
+     
+         $(".btn").click(()=>{
+            
+            let g = $("th").append()
+            let t = $("td").append()
+            $("th").(l)
+            $("td").(s) 
+             }) 
+
  })
  
 
