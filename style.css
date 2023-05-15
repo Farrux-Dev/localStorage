@@ -30,3 +30,6 @@ button{
         height: 20px;
         border: 1px solid black;
     }
+    .doska{
+        display: block  ;
+    }
