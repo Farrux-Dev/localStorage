@@ -33,3 +33,16 @@ input{
     .doska{
         position:absolute;
     }
+    table{
+        margin-top: -100px;
+        border-radius: 12px;
+        color:blue;
+        
+    }
+    .remove{
+        position:absolute;
+        margin-left:-580px;
+        border-radius: 12px;
+        background-color: none;
+        border:2px solid rgb(104, 136, 223);
+    }

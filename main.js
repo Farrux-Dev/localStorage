@@ -32,12 +32,17 @@ $(document).ready(function(){
 //       });
 
 
-$('.btn').click(function() {
+$(".btn").click(function() {
     let get = $(".ism").val();
     let set = $(".ismm").val();
     localStorage.setItem( get, set)
     $(".doska").append('<tr><td>' + get + '</td><td>' + set + '</td></tr>');
 });
+
+$('.remove').click(function(){
+   $("td").remove(); 
+
+})
 
  })
  
