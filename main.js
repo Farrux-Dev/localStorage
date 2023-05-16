@@ -21,32 +21,27 @@
 $(document).ready(function(){
 
    
-    $(".btn").click(()=>{    
-   let get = $(".ism").val()
-   let set = $(".ismm").val()
-   localStorage.setItem( get, set)
-
-
-  
-  
-
-
+//     $(".btn").click(()=>{    
+//    let get = $(".ism").val()
+//    let set = $(".ismm").val()
+//    localStorage.setItem( get, set)  
+//     }) 
      
-    }) 
+//     $('.btn').click(function() {
+//         $(".doska").append('<tr><td></td><td></td></tr>');
+//       });
 
- 
-    // $(".btn").click(()=>{    
-    //     let l = $(".ism").val()
-    //     let s = $(".ismm").val()
-    //     $(".doska").append()
-    //     $(".m").append(l)
-    //     $(".o").append(s) 
-    //      }) 
-     
-    
+
+$('.btn').click(function() {
+    let get = $(".ism").val();
+    let set = $(".ismm").val();
+    localStorage.setItem( get, set)
+    $(".doska").append('<tr><td>' + get + '</td><td>' + set + '</td></tr>');
+});
 
  })
  
+// import {add} from "./app.js"
 
 
  
