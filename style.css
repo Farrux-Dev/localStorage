@@ -46,3 +46,9 @@ input{
         background-color: none;
         border:2px solid rgb(104, 136, 223);
     }
+    .ls{
+        border-radius: 12px;
+        position: absolute;
+        margin-left: 100px;
+        border: 2px solid rgb(104, 136, 223);;
+    }

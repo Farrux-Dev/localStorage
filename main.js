@@ -44,6 +44,11 @@ $('.remove').click(function(){
 
 })
 
+$('.ls').click(function(){
+    localStorage.clear()
+ 
+ })
+
  })
  
 // import {add} from "./app.js"
