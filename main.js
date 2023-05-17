@@ -48,6 +48,7 @@ $('.ls').click(function(){
     localStorage.clear()
  
  })
+ 
 
  })
  
