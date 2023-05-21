@@ -118,7 +118,7 @@
 
 //     }
 // }
-// uy ishi _____________________________________________
+// uy ishi _______________________________________________________________________________________________________________________________________
 
 $(document).ready(function(){
     alert("birinchi inputga Avtomobil nomini kiriting , ikkinchi inputga Avtomobil yilini kiriting")
