@@ -120,23 +120,102 @@
 // }
 // uy ishi _______________________________________________________________________________________________________________________________________
 
-$(document).ready(function(){
-    alert("birinchi inputga Avtomobil nomini kiriting , ikkinchi inputga Avtomobil yilini kiriting")
-     $(".btn").click(function(){
-    let get = $(".ar").val();
-    let mal = $(".er").val();
-    const car2 = new car(get , mal)
-    console.log(car2)
- })
-    class car {
-        constructor(model, year){
-            this.model = model,
-            this.year = year
-        }
-    }
+// $(document).ready(function(){
+//     alert("birinchi inputga Avtomobil nomini kiriting , ikkinchi inputga Avtomobil yilini kiriting")
+//      $(".btn").click(function(){
+//     let get = $(".ar").val();
+//     let mal = $(".er").val();
+//     const car2 = new car(get , mal)
+//     console.log(car2)
+  
+//  })
+//     class car {
+//         constructor(model, year){
+//             this.model = model,
+//             this.year = year
+//         }
+//     }
+
+
     
     
     
     
-})
+// setInterval(() => {
+//   myChart.data.datasets[0].data = Array.from({length: 5}, () => Math.floor(Math.random() * 100));
+//   myChart.update();
+//  },1000);
+
+// const ctx = document.getElementById('myChart');
+// const myChart =   new Chart(ctx,{
+//     type: 'polarArea',
+//     data: {
+//       labels: [
+//         'Red',
+//         'Green',
+//         'Yellow',
+//         'Grey',
+//         'Blue'
+//       ],
+//       datasets: [{
+//         label: '# of Votes',
+//         data:[10,12,4,9,16],
+//         borderWidth: 1
+//       }]
+//     },
+//     options: {
+//       scales: {
+//         y: {
+//           beginAtZero: true
+//         }
+//       }
+//     }
+//   });
+    
+
+//     new Chart(ctx,{
+//       type: 'polarArea',
+//       data: {
+//         labels: [
+//           'Red',
+//           'Green',
+//           'Yellow',
+//           'Grey',
+//           'Blue'
+//         ],
+//         datasets: [{
+//           label: '# of Votes',
+//           data:[11, 16, 7, 3, 14],
+//           borderWidth: 1
+//         }]
+//       },
+//       options: {
+//         scales: {
+//           y: {
+//             beginAtZero: true
+//           }
+//         }
+//       }
+//     });
+
+
+    
+// })
+
+
+
+
+
+
+
+
+
+
+// takrorlash _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+// default paramametr___________________________________
+// function coder (name){
+//     console.log(`${name} the best coder`)
+// }
+// coder("farrux")
+
 
